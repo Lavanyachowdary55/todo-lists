@@ -1,0 +1,121 @@
+
+.todos-bg-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+  background-image: url('data:image/jpeg;base64,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');
+  background-size: cover;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.create-task-heading {
+  font-family: Times New Roman;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-task-heading-subpart {
+  font-family: Times New Roman;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-heading {
+  font-family: Times New Roman;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+  font-family: Times New Roman;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  background-color: purple;
+  font-family: Times New Roman;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: Times New Roman;
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.delete-icon {
+  padding: 15px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
